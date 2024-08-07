@@ -63,6 +63,7 @@ const calc1 = temperatures.forEach((temp) => {
     highest = temp;
   }
 });
+task(5);
 console.log(highest);
 
 //Calculate and return the lowest temperature of the month.
@@ -73,4 +74,5 @@ const calc2 = temperatures.forEach((temp) => {
     lowest = temp;
   }
 });
+task(6);
 console.log(lowest);
